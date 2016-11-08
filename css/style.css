@@ -1,0 +1,53 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  padding: 20px;
+}
+
+ul.items {
+  padding: 0px;
+}
+ul.items li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: solid 1px #bbb;
+  width: 300px;
+}
+ul.items .name, ul.items .price {
+  display: inline-block;
+}
+ul.items .name {
+  width: 150px;
+}
+
+ul.classes {
+  list-style: none;
+  padding: 0px;
+}
+ul.classes li {
+  border-bottom: solid 1px #bbb;
+  padding: 10px;
+}
+ul.classes .classimg {
+  width: 200px;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: top;
+}
+ul.classes .classinfo {
+  display: inline-block;
+  width: calc(100% - 200px - 20px);
+  vertical-align: top;
+}
+ul.classes .classinfo h4, ul.classes .classinfo h5 {
+  margin: 0px;
+  margin-bottom: 6px;
+}
+ul.classes .classinfo p {
+  font-size: 13px;
+  line-height: 20px;
+  text-indent: 2em;
+}

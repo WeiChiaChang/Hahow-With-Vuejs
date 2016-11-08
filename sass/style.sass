@@ -1,0 +1,44 @@
+*
+  font-family: 微軟正黑體
+  
+body
+  padding: 20px
+
+ul.items
+  padding: 0px
+  li
+    list-style: none
+    padding: 10px
+    border-bottom: solid 1px #bbb
+    width: 300px
+  .name, .price
+    display: inline-block
+  .name
+    width: 150px
+  
+ul.classes
+  list-style: none
+  padding: 0px
+  li
+    border-bottom: solid 1px #bbb
+    padding: 10px
+  .classimg
+    width: 200px
+    display: inline-block
+    margin-right: 6px
+    vertical-align: top
+    //只用vertical-align是不會對齊的，原因在.classinfo的h4和h5本身帶有margin和padding
+  .classinfo
+    display: inline-block
+    width: calc(100% - 200px - 20px)
+    vertical-align: top
+    // padding: 5px
+    h4, h5 
+      // padding: 0px
+      margin: 0px
+      margin-bottom: 6px
+    p
+      font-size: 13px
+      line-height: 20px
+      //中文縮排，一個字為1em
+      text-indent: 2em
